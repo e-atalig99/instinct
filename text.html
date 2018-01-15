@@ -1,0 +1,120 @@
+<html>
+<style>
+#everything {
+	background-color:black;
+	text-align: center;
+	float:top;
+}
+#enter {
+	
+	text-align: center;
+	float:right;
+	padding-right: 5%;
+	padding-bottom: 9%;
+}
+#circle {
+	float: left;
+	width: 450px;
+	height: 450px;
+	background: pink;
+	-moz-border-radius: 255px;
+	-webkit-border-radius: 255px;
+	border-radius: 255px;
+	text-align: center;
+	padding-left:5.5%;
+	padding-top:5.5%;
+
+
+}
+#inner {
+	width: 375px;
+	height: 315px;
+	background: black;
+	-moz-border-radius: 187.5px;
+	-webkit-border-radius: 187.5px;
+	border-radius: 187.5px;
+	text-align: center;
+	padding-top: 60px;
+}
+#total {
+	text-align: center;
+	padding-top:5%;
+	padding-left:5%;
+
+}
+#string {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+
+	text-align: center;
+	padding:2px;
+
+
+}
+#hider {
+	color:white;
+	text-align: center;
+	width:500px;
+}
+#textBox {
+	border: solid;
+	border-color: gray;
+	border-width: 30px;
+	width:500px;
+	height:500px;
+	float: right;
+	background-color:white;
+
+}
+.button {
+	background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#inputuser {
+	padding: 15px 32px; line-height: 7px; width: 300px; font-size: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</script>
+<head>
+  
+</head>
+<body id="everything">
+
+
+<div id="total">
+
+<div id="circle">
+<div id="inner">
+<img id="myImg" src="emotion.gif" width="262.5" height="262.5">
+</div>
+</div>
+
+
+
+</div>
+
+
+<div id="enter">
+
+<div id="textBox"><h1 id="string">Welcome to Instinct, a sentiment and emotion analyzer. The color in the ring represents level of sentiment from negative to positive represented by shades from yellow to red, and an emoji will display the emotion given by the text. Give it a try below!</h1></div>
+
+<p><a href="#mess" id="icon"></a></p><input type="text" name="mess" id="inputuser" placeholder="Message" >
+<input type="submit" class="button" id="submit" value="Submit" >
+<button onclick="showInfo()" class="button">Show Details</button>
+
+</div>
+</body>
+
+<script></script>
+</html>
